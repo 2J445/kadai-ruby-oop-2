@@ -9,11 +9,10 @@ class Mentor
         puts "#{self.name}です。私は現役のITプロフェッショナルです。"
     end
     
+end
+
     kirameki = Mentor.new("煌木")
     kirameki.job
-    
-    
-end
 
 
 class RailsMentor < Mentor
@@ -22,7 +21,7 @@ class RailsMentor < Mentor
         puts "#{self.name}です。私はRubyとRailsでWebアプリケーションを作ります。"
     end
     
+end
+
      akaide = RailsMentor.new("赤出")
      akaide.job
-    
-end
